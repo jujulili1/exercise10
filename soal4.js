@@ -1,9 +1,9 @@
-var ulangi = confirm("Apakah anda mau mengulang?");;
-var counter = 0;
+let ulangi = confirm("Apakah anda mau mengulang?");
+let counter = 0;
 
 do {
+    ulangi;
     counter++;
-    ulangi = confirm("Apakah anda mau mengulang?");
 } while (ulangi)
 
-document.write("Perulangan sudah dilakukan sebanyak " + counter + " kali");
+console.log(`Perulangan sudah dilakukan sebanyak ${counter-1} kali `);
