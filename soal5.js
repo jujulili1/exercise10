@@ -1,7 +1,7 @@
 let userAnswer;
 
 do {
-    userAnswer = prompt("Sebutkan kepanjangan dari nama IB!");
+    userAnswer = prompt("Sebutkan kepanjangan dari nama IB?");
 }
 while (userAnswer !== "Impact Byte");
 
